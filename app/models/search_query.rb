@@ -100,6 +100,8 @@ class SearchQuery
   field :no_surname, type: Boolean
   field :witness, type: Boolean
   field :start_year, type: Integer
+  field :start_month, type: String
+  field :start_day, type: String
   field :end_year, type: Integer
   field :radius_factor, type: Integer, default: 101
   field :search_nearby_places, type: Boolean
